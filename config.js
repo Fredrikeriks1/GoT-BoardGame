@@ -24,7 +24,7 @@ function hide(element) {element.classList.add('hide')}
 
 
 const movingTileList = {
-    SKIP_THIS_ROUND      : "SKIP_THIS_ROUND",
+    SKIP_THIS_ROUND : "SKIP_THIS_ROUND",
     DRAW_CARD       : "DRAW_CARD",
     DICE_OUTCOME    : "DICE_OUTCOME",
     STORE           : "STORE",
