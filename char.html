@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Select Character</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../index.css">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative|Noto+Serif" rel="stylesheet">
+</head>
+<body>
+
+    <img id="end-result-image" class="hide" src="/img/tmp/chracter select frame.png" alt="">
+    
+    <div class="main-container">
+
+            <div class="background-img-conainer">
+                <img src="/img/background.svg" alt="" class="background-img">
+            </div>
+
+            <div class="content-section">
+                <h1 class="game-title">King of the Road</h1>
+                
+                <h3 class="player-instructions">
+                    SELECT TWO CHARACTERS TO PLAY
+                </h3>
+                <h3 class="player-instructions" id="errorAlert">
+                    Too many characters selected!
+                </h3>
+
+                <div class="play-button invisable" id="playButton">PLAY</div>
+
+                <div class="shield-container">
+                    <div class="shield-item" value="brien"><img src="img/briennebadge.svg" alt=""></div>
+                    <div class="shield-item" value="jon"><img src="img/jonsnowbadge.svg" alt=""></div>
+                    <div class="shield-item" value="danny"><img src="img/deanerysbadge.svg" alt=""></div>
+                    <div class="shield-item" value="tyri"><img src="img/tyrionbadge.svg" alt=""></div>
+                </div>
+
+                <div class="container-box invisable" id="informationBox">
+                    
+                    <div class="selected-chracter-info">
+                        
+                        <label for="chracterName" id="chracterNameLabel">
+                            <h3 id="chracterName" class="chracter-info__name">Jon Snow</h3>
+                        </label> 
+              
+                        <label for="ancestralWeapons">Ancestral Weapons: 
+                            <h4 id="ancestralWeapons" class="chracter-info__weapon">Ice</h4>
+                        </label> 
+                
+                        <label for="coatOfArms">Coat Of Arms: 
+                            <h4 id="coatOfArms" class="chracter-info__coat-of-armas">A running grey direwolf, on an ice-white field</h4>
+                        </label> 
+               
+                        <label for="house">House: 
+                            <h4 id="house" class="chracter-info__house">House Stark of Winterfell</h4>
+                        </label> 
+          
+                        <label for="charcterAlias">Alias: 
+                            <h4 id="charcterAlias" class="chracter-info__alias">Lord Snow</h4>
+                        </label> 
+                
+                        <label for="characterTitle">Title: 
+                            <h4 id="characterTitle" class="chracter-info__title">Lord Commander of the Night's Watch</h4>
+                        </label> 
+
+                        <label for="houseWords"> House Words:  
+                            <h4 id="houseWords" class="chracter-info__words">Winter is Coming</h4>
+                        </label>
+                    </div>
+                </div>
+            
+            </div>
+    </div>
+  
+    <script src="index.js"></script>
+    </div>
+</body>
+</html>
