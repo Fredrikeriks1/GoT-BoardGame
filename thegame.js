@@ -340,7 +340,7 @@ function startFight(enemy) {
         }
     }
 
-    // endListner(diceButton, 'click',listner)
+    endListner(diceButton, 'click',listner)
     })
 }
 

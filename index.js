@@ -139,7 +139,7 @@ function fetchCharacter(charcterObject){
                 return charcterObject
             })
         })
-        .catch(error => console.log("ERROR MAN!: ",error))
+        .catch(error => console.log("ERROR!",error))
         
 }
 
