@@ -4,14 +4,155 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" media="screen" href="boardstyl.css" />
-    <title>Game Board</title>   
+    <link rel="stylesheet" type="text/css" media="screen" href="../boardstyl.css" />
+    <title>Board Game</title>   
 </head>
 
 <body>
-    <img src="" alt="" id="backgroundImage">
+    <img src="img/background.svg" alt="" id="backgroundImage">
     <div class="container">
+    
+    <div class="current-player" id="currentPlayerHTML"></div>
+
+    
+    <div class="the-board-pos">
+            <h3 class="player-instructions" id="errorAlert">
+                    CLICK THE DICE TO MAKE A MOVE
+            </h3>
+
+            
+            <div class="the-board">
+                    <div class="players" id="player1">
+                        <div class="game-piece-position">
+                            <img src="img/lionpiece.svg" alt="" class="game-piece" id="player1Img">
+                        </div>
+                    </div>
+                    <div class="players" id="player2">
+                        <div class="game-piece-position">
+                            <img src="img/wolfheadpiece.svg" alt="" class="game-piece" id="player2Img">
+                        </div>
+                    </div>
+
+                    <ol class="top-tiles" id="topTiles">
+                        <li class="tile" id="tileNumber1">01</li>
+                        <li class="tile" id="tileNumber2">02</li>
+                        <li class="tile" id="tileNumber3">03</li>
+                        <li class="tile" id="tileNumber4">04</li>
+                        <li class="tile" id="tileNumber5">05</li>
+                        <li class="tile" id="tileNumber6">06</li>
+                        <li class="tile" id="tileNumber7">07</li>
+                        <li class="tile" id="tileNumber8">08</li>
+                        <li class="tile" id="tileNumber9">09</li>
+                    </ol>
+                    <ol class="right-tiles" id="rightTiles">
+                        <li class="tile" id="tileNumber10">10</li>
+                        <li class="tile" id="tileNumber11">11</li>
+                        <li class="tile" id="tileNumber12">12</li>
+                        <li class="tile" id="tileNumber13">13</li>
+                        <li class="tile" id="tileNumber14">14</li>
+                        <li class="tile" id="tileNumber15">15</li>
+                    </ol>
+                    <ol class="bottom-tiles" id="bottomTiles">
+                        <li class="tile" id="tileNumber16">16</li>
+                        <li class="tile" id="tileNumber17">17</li>
+                        <li class="tile" id="tileNumber18">18</li>
+                        <li class="tile" id="tileNumber19">19</li>
+                        <li class="tile" id="tileNumber20">20</li>
+                        <li class="tile" id="tileNumber21">21</li>
+                        <li class="tile" id="tileNumber22">22</li>
+                        <li class="tile" id="tileNumber23">23</li>
+                        <li class="tile" id="tileNumber24">24</li>
+                    </ol>
+                    <ol class="left-tiles" id="leftTiles">
+                        <li class="tile" id="tileNumber25">25</li>
+                        <li class="tile" id="tileNumber26">26</li>
+                        <li class="tile" id="tileNumber27">27</li>
+                        <li class="tile" id="tileNumber28">28</li>
+                        <li class="tile" id="tileNumber28">29</li>
+                        <li class="tile" id="tileNumber28">30</li>
+                    </ol>
+                </div>
+                <div class="dice-container">
+                        <img src="img/threedot.svg" alt="" class="" id="graphicDiceBtn">
+                </div>
+    </div>
 
     </div>
+
+
+    
+    <div class="tile-card hide" id="tileCard">
+        
+        <!-- NOT IN USE -->
+        <template>
+            <h3 class="tile-card__name">Wolf</h3>
+            <div class="tile-card__image-container"></div>
+            <ul class="tile-card__stats-container">
+                <li class="tile-card__stat stats__strength" id="tileCardStrenght">4</li>
+                <li class="tile-card__stat stats__magic" id="tileCardMagic">2</li>
+                <li class="tile-card__stat stats__life" id="tileCardLife">2</li>
+            </ul>
+        </template>
+
+    </div>
+
+    <div class="game-gui-container">
+        <p class="player-turn-label" id="playerTurnLabel">turn</p>
+        <h3 class="player-name-label" id="playerNameHTML">Fredrik</h3>
+        <h2 class="dice-number-label hide" id="diceNumberLabel">0</h2>
+        <button class="ui-action-btn role-dice-btn hide" id="diceButton">Role Dice</button>
+        <button class="ui-action-btn attack-buttn hide" id="AttackButton">Attack</button>
+        
+        <div class="stamina-info">
+            <p class="hide stamina-info__label enemy-stamina-label" id="enemyStaminaLabel">Enemy stamina: 12</p>
+            <p class="hide stamina-info__label player-stamina-label" id="playerStaminaLabel">Player stamina: 12</p>
+        </div>
+
+        <div class="character-overlay">
+            <div class="character-overlay__stats-panel">
+                <ul class="stats-container" id="statsContainer">
+                    <li class="stinfo" id="playerStrength">
+                        <p class="stinfo__number">0</p>
+                        <p class="stinfo__label">Strength</p>
+                    </li>
+                    <li class="stinfo" id="playerMagic">
+                        <p class="stinfo__number">0</p>
+                        <p class="stinfo__label">Magic</p>
+                    </li>
+                    <li class="stinfo" id="playerExperience">
+                        <p class="stinfo__number">0</p>
+                        <p class="stinfo__label">Experience</p>
+                    </li>
+                    <li class="stinfo" id="playerGold">
+                        <p class="stinfo__number">0</p>
+                        <p class="stinfo__label">Gold</p>
+                    </li>
+                    <li class="stinfo" id="playerLife">
+                        <p class="stinfo__number">0</p>
+                        <p class="stinfo__label">Life</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div id="informationDialog" class="hide anim-dialog-show anim-dialog-hide">
+        <h2>Information</h2>
+        <h4>Type</h4>
+        <p>Blablablablablabla</p>
+        <button>
+            Finish
+        </button>
+    </div>
+
+    <div id="tileDetialsCard">
+        <h2>Title</h2>
+        <h3>Action</h3>
+    </div>
+        
+    <script src="utils.js"></script>
+    <script src="config.js"></script>
+    <script src="thegame.js"></script>
+    
 </body>
 </html>
