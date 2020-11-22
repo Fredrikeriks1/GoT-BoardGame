@@ -1,0 +1,205 @@
+[{
+    "Dragons":{
+        
+        "cardType":"FIGHT",
+        "strength": 7,
+        "lives": 2
+        
+    },
+    "Wights":{
+
+        "cardType":"FIGHT",
+        "magic": 3,
+        "lives": 3
+        
+    },
+    "Three-eyed raven":{
+
+        "cardType":"FIGHT",
+        "magic": 2,
+        "lives": 1
+        
+    },
+    "Manticore":{
+
+        "cardType":"FIGHT",
+        "strength": 2,
+        "lives": 1
+        
+    },
+    "Wargs":{
+
+        "cardType":"FIGHT",
+        "magic": 4,
+        "lives": 2
+         
+    },
+    "Giants":{
+
+        "cardType":"FIGHT",
+        "strength": 6,
+        "lives": 3
+        
+    },
+    "Children of the Forest":{
+
+        "cardType":"FIGHT",
+        "magic": 5,
+        "lives": 1
+         
+    },
+    "Warlocks of Qarth":{
+
+        "cardType":"FIGHT",
+        "magic": 3,
+        "lives": 1
+         
+    },
+    "White Walkers":{
+
+        "cardType":"FIGHT",
+        "magic": 8,
+        "lives": 2
+         
+    },
+    "A Shadow":{
+
+        "cardType":"FIGHT",
+        "magic": 4,
+        "lives": 1
+         
+    },
+    "Giant Ice Spiders":{
+
+        "cardType":"FIGHT",
+        "strength": 3,
+        "lives": 2
+        
+    },
+    "Krakens":{
+
+        "cardType":"FIGHT",
+        "strength": 6,
+        "lives": 3
+        
+    },
+    "Shadowcats":{
+
+        "cardType":"FIGHT",
+        "strength": 3,
+        "lives": 1
+        
+    },
+    "Unicorns":{
+
+        "cardType":"FIGHT",   
+        "magic": 4,
+        "lives": 1
+         
+    },
+    "Old Men of the River":{
+
+        "cardType":"FIGHT",
+        "strength": 3,
+        "lives": 2
+        
+    },
+    "Sea Dragons":{
+
+        "cardType":"FIGHT",
+        "strength": 5,
+        "lives": 2
+        
+    },
+    "Ice Dragons":{
+
+        "cardType":"FIGHT",
+        "magic": 7,
+        "lives": 2
+        
+    },
+    "Wolf Pack":{
+
+        "cardType":"FIGHT",  
+        "strength": 2,
+        "lives": 3
+        
+    },
+    "Wild Boar":{
+
+        "cardType":"FIGHT",
+        "strength": 2,
+        "lives": 1
+
+    },
+    "Bear":{
+
+        "cardType":"FIGHT",
+        "strength": 3,
+        "lives": 2
+        
+    },
+    "Dire Wolf":{
+
+        "cardType":"FIGHT",
+        "strength": 5,
+        "lives": 1
+        
+    },
+    "Skeleton":{
+
+        "cardType":"FIGHT",  
+        "magic": 1,
+        "lives": 2
+        
+    },
+    "Undead":{
+
+        "cardType":"FIGHT",  
+        "magic": 2,
+        "lives": 2
+        
+    },
+    "Faceless Men":{
+
+        "cardType":"FIGHT",
+        "magic": 4,
+        "lives": 1
+        
+    },
+    "Lone Assassin":{
+
+        "cardType":"FIGHT",   
+        "strength": 3,
+        "lives": 1
+        
+    },
+    "Thieve":{
+
+        "cardType":"FIGHT",
+        "strength": 1,
+        "lives": 2
+         
+    },
+    "Pirates":{
+
+        "cardType":"FIGHT",
+        "strength": 2,
+        "lives": 3
+         
+    },
+    "Undead Bear":{
+
+        "cardType":"FIGHT", 
+        "magic": 4,
+        "lives": 2
+        
+    },
+    "Basilisk":{
+
+        "cardType":"FIGHT",
+        "magic": 3,
+        "lives": 1
+        
+    }
+}]
