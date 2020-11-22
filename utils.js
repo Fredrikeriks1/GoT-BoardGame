@@ -205,4 +205,5 @@ function updateCurrentPlayer() {
         <img src="${badgepersonUrl}" alt="">
         <h4>${activePlayer.stats.name}</h4>
         `
+    }
 }
